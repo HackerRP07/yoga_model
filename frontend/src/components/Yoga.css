@@ -18,10 +18,9 @@
 }
 
 .secondary-btn:hover {
-    background-color: aqua;
+    background-color: rgb(0, 255, 242);
     color: black;
 }
-
 
 #webcam {
     transform: rotateY(180deg);

@@ -71,13 +71,9 @@ function Yoga() {
   const webcamRef = useRef(null)
   const canvasRef = useRef(null)
 
-
-
   const [currentPose, setCurrentPose] = useState('Chair')
   const [isStartPose, setIsStartPose] = useState(false)
 
-  
- 
 
   const CLASS_NO = {
     Chair: 0,
@@ -222,13 +218,14 @@ function Yoga() {
     runMovenet()
   } 
 
+  //webcam stopping function
   function stopPose() {
     setIsStartPose(false)
     clearInterval(interval)
   }
 
     
-
+// webcam starting function
   if(isStartPose) {
     return (
       <div className="yoga-container">

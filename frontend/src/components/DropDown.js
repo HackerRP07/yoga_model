@@ -1,6 +1,7 @@
 import React from "react";
 import "./DropDown.css";
 
+//poses hindi name
 const poseName = {
   Tree: "Vrikshasana",
   Chair: "Utkatasana",
